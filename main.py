@@ -10,7 +10,7 @@ import playsound
 import time
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
-ALARM_SOUND = "alarm.mp3"
+ALARM_SOUND = "sound.mp3"
 
 def play_alarm():
     playsound.playsound(ALARM_SOUND)
